@@ -3,7 +3,62 @@
     margin: 0;
     padding: 0;
   }
-  
-  body{
-    font-family: 'Cabin', sans-serif;
+  html{
+    scroll-behavior: smooth;
   }
+  body{
+    font-family: 'Spline Sans', sans-serif;
+    background-color: rgb(121, 120, 120);
+  
+  }
+/* font google font
+  font-family: 'Carter One', cursive;
+ */
+  
+ /* parte del navbar*/
+.logo1{
+  max-width: 70px;
+  padding-right: 20px;
+  
+}
+.logo-text{
+  font-family: 'Carter One', cursive;
+}
+.fondonav{
+  background-color: rgb(85, 145, 105);
+}
+
+/*parte de la imagen principal*/
+h2{
+  text-align: center;
+ 
+}
+.foto{
+  width:100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-color: blueviolet;
+  background-image: url(../img/carousel1.jpg); 
+  background-repeat: no-repeat;
+ background-size: cover;
+background-position: center;
+
+}
+.img-fondo{
+  height: 600px;
+  background-color: rgb(165, 180, 78);
+  
+  /* justify-content: center;
+  align-items: center;
+  display: flex; */
+  
+}
+main{
+  background-color: rgb(221, 221, 221);
+}
+.contenedor{
+  max-width: 1300px;
+}
+
+
