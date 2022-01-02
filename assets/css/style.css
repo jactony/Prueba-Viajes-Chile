@@ -63,5 +63,12 @@ font-size: 35px;
    text-decoration:none; 
    cursor:pointer;  
 }
+.modal-1{
+ text-align: center;
+}
+.carousel-item{
+  height: 35rem;
+  background-position: center;
+}
 
 
