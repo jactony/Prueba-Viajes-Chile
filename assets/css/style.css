@@ -8,7 +8,7 @@
   }
   body{
     font-family: 'Spline Sans', sans-serif;
-      
+           
   }
   header {
     background-image: url('../img/carousel1.jpg');
@@ -17,9 +17,6 @@
     background-position: center;
     padding-bottom: 20rem;
   }
-/* font google font
-  font-family: 'Carter One', cursive;
- */
   
  /* parte del navbar*/
 .logo1{
@@ -30,6 +27,7 @@
 .logo-text{
   font-family: 'Carter One', cursive;
 }
+
 .fondonav{
   background-color: rgb(85, 145, 105);
 }
@@ -41,13 +39,25 @@ h2{
   text-align: center;
 }
 
-main{
-  background-color: rgb(226, 156, 115);
+.container{
+  background-color: rgb(110, 155, 161);
+  
 }
-.contenedor{
-  max-width: 1300px;
-  background-color: rgb(148, 236, 140);
+.container1{
+  background-color: rgb(233, 187, 218);
+  
 }
+
+.modal-1{
+ text-align: center;
+}
+
+.carousel-item{
+  height: 100%;
+  background-position: center;
+}
+
+/* Iconos que van en el footer, RRSS */
 .iconosrs{
 font-size: 35px;
 
@@ -63,12 +73,7 @@ font-size: 35px;
    text-decoration:none; 
    cursor:pointer;  
 }
-.modal-1{
- text-align: center;
-}
-.carousel-item{
-  height: 35rem;
-  background-position: center;
-}
+
+
 
 

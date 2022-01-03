@@ -34,54 +34,47 @@
 </head>
 
 <body>
+    
 
-    <!--Barra de navegación-->
-    <nav class="navbar navbar-expand-lg navbar-dark fondonav fixed-top px-5">
-        <div class="container-fluid">
-            <a class="navbar-brand logo-text" href="#"><img class="logo1" src="assets/img/viajes.svg"
-                    alt="Viajes por Chile">Viajes Chile</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#volver">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#destacados">Tours</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacto">Contacto</a>
-                    </li>
+        <!--Barra de navegación-->
+        <nav class="navbar navbar-expand-lg navbar-dark fondonav fixed-top px-5">
+            <div class="container-fluid">
+                <a class="navbar-brand logo-text" href="#"><img class="logo1" src="assets/img/viajes.svg"
+                        alt="Viajes por Chile">Viajes Chile</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#volver">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#destacados">Tours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
 
-                </ul>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <!-- Foto portada del homepage-->
+    
 
-    <header class="text-light text-center pt-5 mt-5">
-        <div class="container" id="volver">
-            <h1 class="display-3 font-weight-bold my-5">Disfruta la aventura de viajar</h1>
+        <!-- Foto portada del homepage en el header-->
 
-        </div>
-    </header>
+        <header class="text-light text-center pt-5 mt-5">
+            <div class="container" id="volver">
+                <h1 class="display-3 font-weight-bold my-5">Disfruta la aventura de viajar</h1>
 
-    <!--  <header>
-        <div class="img-fondo border border-5 border border-danger justify-content-center align-items-center">
-            <div class="foto border border-5">
-                <h2>Disfruta la aventura de viajar</h2>
             </div>
-        </div>
-    </header>-->
+        </header>
 
-
-    <main class="container justify-content-center align-items-center">
-
-        <div class="contenedor">
+    <div class="container1">
+        <main class="container justify-content-center align-items-center">
 
             <!--Sección primer bootstrap 3 columnas quienes somos-->
             <div class="text-h2">
@@ -103,12 +96,13 @@
                             numquam
                             vero? Dolorum at, placeat error quibusdam accusamus corrupti ipsum enim natus, vel dicta
                             quia?
-                        
+
                         </p>
                         <!-- Botón modal 1 Nuestro equipo-->
                         <div class="modal-1">
-                            <button type="button" class="btn btn-success mt-5 boton-modal" data-bs-toggle="modal" data-bs-target="#modal-1">
-                                Más información
+                            <button type="button" class="btn btn-success mt-5 boton-modal" data-bs-toggle="modal"
+                                data-bs-target="#modal-1">
+                                Nuestro equipo
                             </button>
                         </div>
                     </div>
@@ -125,20 +119,19 @@
 
                         </p>
                         <div class="bg-success text-white text-center fs-2 p-2">
-                            <!-- <h3 class="fw-bold" id="cambio-color1"> Montaña</h3> -->
                             <i class="fas fa-mountain"></i>
                         </div>
                         <!-- Botón modal 2 Nuestro objetivo-->
                         <div class="modal-1">
-                            <button type="button" class="btn btn-success mt-5 boton-modal" data-bs-toggle="modal" data-bs-target="#modal-2">
-                                Más información
+                            <button type="button" class="btn btn-success mt-5 boton-modal" data-bs-toggle="modal"
+                                data-bs-target="#modal-2">
+                                Nuestros objetivos
                             </button>
                         </div>
                     </div>
 
                     <div class="col-md-4 columna1 border border-5 border border-danger p-2">
                         <div class="bg-success text-white text-center fs-2 p-2">
-                            <!-- <h3 class="fw-bold" id="cambio-color1">Transporte</h3> -->
                             <i class="fas fa-plane"></i>
                         </div>
                         <p>
@@ -152,8 +145,9 @@
                         </p>
                         <!-- Botón modal 3 Lo que ofrecemos-->
                         <div class="modal-1">
-                            <button type="button" class="btn btn-success mt-5 boton-modal" data-bs-toggle="modal" data-bs-target="#modal-3">
-                                Más información
+                            <button type="button" class="btn btn-success mt-5 boton-modal" data-bs-toggle="modal"
+                                data-bs-target="#modal-3">
+                                Nuestra oferta
                             </button>
                         </div>
                     </div>
@@ -161,116 +155,128 @@
                 <hr>
             </section>
 
-<!-- Modal 1-->
-<div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Nuestro Equipo</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <!-- Modal 1-->
+            <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Nuestro Equipo</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor delectus incidunt
+                                veritatis blanditiis quisquam laudantium libero assumenda illum error deleniti. Facere
+                                quidem quis explicabo consequuntur soluta voluptatibus perferendis possimus debitis
+                                adipisci porro aliquid quae reiciendis totam ad sint vitae, quasi enim, delectus, non
+                                vel sit. Sapiente minus laborum quis excepturi.</p>
+                        </div>
+                        <div class="modal-footer justify-content-center">
+                            <button type="button" data-bs-dismiss="modal" class="btn btn-success">Cerrar
+                                Nosotros</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor delectus incidunt veritatis blanditiis quisquam laudantium libero assumenda illum error deleniti. Facere quidem quis explicabo consequuntur soluta voluptatibus perferendis possimus debitis adipisci porro aliquid quae reiciendis totam ad sint vitae, quasi enim, delectus, non vel sit. Sapiente minus laborum quis excepturi.</p>
-            </div>
-            <div class="modal-footer justify-content-center">
-               <!--  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
-                <button type="button" data-bs-dismiss="modal" class="btn btn-success">Cerrar Nosotros</button>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Modal 2-->
-<div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Nuestro Objetivo</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <!-- Modal 2-->
+            <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Nuestro Objetivo</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor delectus incidunt
+                                veritatis blanditiis quisquam laudantium libero assumenda illum error deleniti. Facere
+                                quidem quis explicabo consequuntur soluta voluptatibus perferendis possimus debitis
+                                adipisci porro aliquid quae reiciendis totam ad sint vitae, quasi enim, delectus, non
+                                vel sit. Sapiente minus laborum quis excepturi.</p>
+                        </div>
+                        <div class="modal-footer justify-content-center">
+                            <button type="button" data-bs-dismiss="modal" class="btn btn-success">Cerrar Nuestro
+                                objetivo</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor delectus incidunt veritatis blanditiis quisquam laudantium libero assumenda illum error deleniti. Facere quidem quis explicabo consequuntur soluta voluptatibus perferendis possimus debitis adipisci porro aliquid quae reiciendis totam ad sint vitae, quasi enim, delectus, non vel sit. Sapiente minus laborum quis excepturi.</p>
-            </div>
-            <div class="modal-footer justify-content-center">
-               <!--  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
-                <button type="button" data-bs-dismiss="modal" class="btn btn-success">Cerrar Nuestro objetivo</button>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Modal 3-->
-<div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Lo que ofrecemos</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <!-- Modal 3-->
+            <div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Lo que ofrecemos</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor delectus incidunt
+                                veritatis blanditiis quisquam laudantium libero assumenda illum error deleniti. Facere
+                                quidem quis explicabo consequuntur soluta voluptatibus perferendis possimus debitis
+                                adipisci porro aliquid quae reiciendis totam ad sint vitae, quasi enim, delectus, non
+                                vel sit. Sapiente minus laborum quis excepturi.</p>
+                        </div>
+                        <div class="modal-footer justify-content-center">
+                            <button type="button" data-bs-dismiss="modal" class="btn btn-success">Cerrar Lo que
+                                ofrecemos</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor delectus incidunt veritatis blanditiis quisquam laudantium libero assumenda illum error deleniti. Facere quidem quis explicabo consequuntur soluta voluptatibus perferendis possimus debitis adipisci porro aliquid quae reiciendis totam ad sint vitae, quasi enim, delectus, non vel sit. Sapiente minus laborum quis excepturi.</p>
-            </div>
-            <div class="modal-footer justify-content-center">
-               <!--  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
-                <button type="button" data-bs-dismiss="modal" class="btn btn-success">Cerrar Lo que ofrecemos</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
 
             <!-- Aqui van las tarjetas -4 card-->
             <section class="container my-3">
-                <h2 class="text-center" id="destacados">DESTINOS DESTACADOS</h2>
+                <h2 class="text-center py-3" id="destacados">DESTINOS DESTACADOS</h2>
                 <div class="row">
-                    <div class="col-12 col-sm-6        col-md-6 col-lg-3">
-<!--Tarjeta num1-->
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                        <!--Tarjeta num1-->
                         <div class="card">
                             <img class="card-img-top" src="assets/img/card1.jpg" alt="Foto paisajes">
                             <div class="card-body">
-                            <h5 class="card-title">Lagos y Playas</h5>
-                            <p class="esconder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                                repellendus repellat facere nostrum incidunt aspernatur libero placeat
-                                vitae praesentium ullam.</p>
+                                <h5 class="card-title">Lagos y Playas</h5>
+                                <p class="esconder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                                    repellendus repellat facere nostrum incidunt aspernatur libero placeat
+                                    vitae praesentium ullam.</p>
                             </div>
                         </div>
                     </div>
-<!--Tarjeta num2-->
-                    <div class="col-12 col-sm-6        col-md-6 col-lg-3">
+                    <!--Tarjeta num2-->
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="card">
-                            <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Montañas</h5>
-                                    <p class="esconder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                                        repellendus repellat facere nostrum incidunt aspernatur libero placeat
-                                        vitae praesentium ullam.</p>
-                                </div>
+                            <img src="assets/img/card2.jpg" class="card-img-top" alt="fotos paisajes">
+                            <div class="card-body">
+                                <h5 class="card-title">Montañas</h5>
+                                <p class="esconder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                                    repellendus repellat facere nostrum incidunt aspernatur libero placeat
+                                    vitae praesentium ullam.</p>
+                            </div>
                         </div>
                     </div>
-<!--Tarjeta num3-->
-                    <div class="col-12 col-sm-6        col-md-6 col-lg-3">
+                    <!--Tarjeta num3-->
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="card">
-                            <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Norte grande</h5>
-                                    <p class="esconder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                                        repellendus repellat facere nostrum incidunt aspernatur libero placeat
-                                        vitae praesentium ullam.</p>
-                                </div>
+                            <img src="assets/img/card3.jpg" class="card-img-top" alt="fotos paisajes">
+                            <div class="card-body">
+                                <h5 class="card-title">Norte grande</h5>
+                                <p class="esconder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                                    repellendus repellat facere nostrum incidunt aspernatur libero placeat
+                                    vitae praesentium ullam.</p>
+                            </div>
                         </div>
                     </div>
-<!--Tarjeta num4-->
-                    <div class="col-12 col-sm-6        col-md-6 col-lg-3">
+                    <!--Tarjeta num4-->
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="card">
-                            <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Naturaleza viva</h5>
-                                    <p class="esconder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                                        repellendus repellat facere nostrum incidunt aspernatur libero placeat
-                                        vitae praesentium ullam.</p>
-                                </div>
+                            <img src="assets/img/card4.jpg" class="card-img-top" alt="paisajes">
+                            <div class="card-body">
+                                <h5 class="card-title">Naturaleza viva</h5>
+                                <p class="esconder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                                    repellendus repellat facere nostrum incidunt aspernatur libero placeat
+                                    vitae praesentium ullam.</p>
+                            </div>
                         </div>
                     </div>
             </section> <!-- Aqui terminan las tarjetas-->
@@ -278,7 +284,7 @@
             <!-- aquí viene el CARRUSEL-->
 
             <section>
-                <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div id="carouselExampleControls" class="carousel slide carousel-fade py-1" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="assets/img/carousel33.jpg" class="d-block w-100" alt="Nuestras islas">
@@ -286,7 +292,7 @@
                         <div class="carousel-item">
                             <img src="assets/img/carousel22.jpg" class="d-block w-100" alt="Naturaleza">
                         </div>
-                        
+
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                         data-bs-slide="prev">
@@ -304,21 +310,24 @@
             </section>
             <!-- Fin del CARRUSEL-->
 
-        </div>
-    </main>
 
-    <!-- Formulario de contacto -->
-    <section>
+        </main>
 
-        <h2 class="text-center" id="contacto">Contacto</h2>
-        <!--  <div data-tf-widget="EC3cYJ5z" data-tf-iframe-props="title=Viajes Chile" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script> -->
-
+        <!-- Formulario de contacto -->
+        <section>
+            <div class="container py-5">
+                <h2 class="text-center py-2" id="contacto">Contacto</h2>
+                <div data-tf-widget="EC3cYJ5z" data-tf-iframe-props="title=Viajes Chile"
+                    style="width:100%;height:400px;"></div>
+                <script src="//embed.typeform.com/next/embed.js"></script>
+            </div>
+    </div>
     </section>
     <!--  fin Formulario -->
 
     <footer class="row align-items-center justify-content-center foter mb-1 text-white"
         style="background-color: #1e813f;">
-        <h1 class="fst-italic text-center fs-3 pt-3">Redes sociales</h1>
+        <h1 class="fst-italic text-center fs-3 pt-3">Estamos en las Redes sociales</h1>
         <div class="iconosrs text-center">
 
             <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square p-3" id="twitter"
@@ -336,8 +345,8 @@
         </div>
     </footer>
 
-    </div>
 
+    </div>
     <!-- Separate de bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
