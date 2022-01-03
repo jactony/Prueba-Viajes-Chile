@@ -31,9 +31,12 @@ $('.card-img-top').click(function(){
 $('.esconder').toggle();
 });
 
+
+
 //cambiar color a texto
-$('body').on('dblclick','h1', function(){
-$(this).css("color", "blue");
+$('body').on('dblclick','#cambio-color', function(){
+$(this).css("color", "#fbfbfb");
 })
 
 });
+
